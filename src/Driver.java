@@ -9,15 +9,18 @@ public class Driver {
 
 	public Driver() {
 		System.out.println("Hello world");
-		Display(EnterString());
+		String str = EnterString();
+		
+		Display(str);
+		Display(str.toUpperCase());
 
 	}
 
 	public void Display(String sentence) {
 		System.out.println(sentence);
 	}
-	
-	public String EnterString(){
+
+	public String EnterString() {
 		Scanner s = new Scanner(System.in);
 		return s.nextLine();
 	}
