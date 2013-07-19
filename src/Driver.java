@@ -10,7 +10,7 @@ public class Driver {
 	
 	public Driver(){
 		System.out.println("Hello world");
-		Display("Lol");
+		Display("Lol what new");
 		
 	}
 	
